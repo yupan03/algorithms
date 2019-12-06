@@ -19,7 +19,7 @@ public class CommonDivisor {
     }
 
     /**
-     * 空瓶子换饮料的算�?
+     * 空瓶子换饮料的算法
      *
      * @param n
      * @return
@@ -35,6 +35,4 @@ public class CommonDivisor {
 
         return k;
     }
-
-
 }
