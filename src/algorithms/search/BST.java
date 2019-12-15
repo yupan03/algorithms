@@ -188,8 +188,8 @@ public class BST<Key extends Comparable<Key>, Value> {
 		} else if (cmp < 0) {
 			Node t = ceil(key, node.left);
 
-			if(t != null) return t;
-			else return node;
+			if(t == null) return node;
+			else return t;
 		}
 
 		return ceil(key, node.right);
