@@ -30,5 +30,6 @@ public class BSTTest {
         System.out.println("二叉树指定位置的元素3：" + bst.select(3));
         System.out.println("二叉树元素3的位置:" + bst.rank(3));
         System.out.println("二叉树高度：" + bst.heigh());
+        
     }
 }
