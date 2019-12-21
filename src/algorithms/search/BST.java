@@ -1,10 +1,9 @@
 package algorithms.search;
 
 /**
- * @author 73599
- *
- * @param <Key>
- * @param <Value>
+ * 二叉搜索树
+ * 
+ * @author David
  */
 public class BST<Key extends Comparable<Key>, Value> {
 

@@ -13,21 +13,17 @@ public class BagTest {
         bag.add("D");
         bag.add("E");
         bag.add("F");
-        
+
         System.out.println(bag.size());
-        
+
         for (String s : bag) {
             StdOut.println(s);
         }
-        
-        
-        
-        
+
         Graph graph = new Graph(6);
-        
-        
+
         graph.addEdge(1, 5);
-        
+
         System.out.println(graph);
     }
 }
