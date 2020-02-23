@@ -3,7 +3,7 @@ package algorithms.search;
 public class BSTTest {
 
     public static void main(String[] args) {
-        BST<Integer, String> bst = new BST<Integer, String>();
+        BST<Integer, String> bst = new BST<>();
 
         bst.put(1, "1");
         bst.put(2, "2");

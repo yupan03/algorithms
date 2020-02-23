@@ -1,5 +1,7 @@
 package others;
 
+import java.util.Scanner;
+
 public class Classroom {
     /**
      * 会议
@@ -20,6 +22,16 @@ public class Classroom {
     }
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String nextLine = scanner.nextLine();
+        scanner.nextInt();
+        int sum = 0;
+
+        while (nextLine != null && !nextLine.startsWith("0,0")) {
+            sum ++;
+            System.out.println(nextLine);
+            nextLine = scanner.nextLine();
+        }
 
 
         boolean[] time = new boolean[24];// 表示这个时间是否被占用
@@ -119,6 +131,4 @@ public class Classroom {
         }
         return j;
     }
-
-
 }

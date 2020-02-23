@@ -66,7 +66,7 @@ public class BST<Key extends Comparable<Key>, Value> {
     /**
      * 后序遍历
      * 
-     * @param node
+     * @param node 节点
      */
     private void recursivePostOrder(Node node) {
         if (node == null)

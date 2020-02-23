@@ -6,7 +6,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class BagTest {
     public static void main(String[] args) {
-        Bag<String> bag = new Bag<String>();
+        Bag<String> bag = new Bag<>();
         bag.add("A");
         bag.add("B");
         bag.add("C");
